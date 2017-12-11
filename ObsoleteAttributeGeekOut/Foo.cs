@@ -4,7 +4,7 @@ namespace ObsoleteAttributeGeekOut
 {
     class Foo
     {
-        [Obsolete]
+        [Obsolete(message:"Use NewBar() instead")]
         public void OldBar()
         {
             Console.WriteLine("Calling OldBar");
