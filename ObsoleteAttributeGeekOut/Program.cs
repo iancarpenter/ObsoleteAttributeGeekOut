@@ -10,6 +10,9 @@ namespace ObsoleteAttributeGeekOut
     {
         static void Main(string[] args)
         {
+            Foo f = new Foo();
+
+            f.OldBar();
         }
     }
 }
